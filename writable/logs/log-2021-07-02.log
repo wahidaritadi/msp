@@ -1,0 +1,11 @@
+CRITICAL - 2021-07-02 01:04:38 --> Undefined variable: item
+#0 C:\xampp\htdocs\Wilis\app\Views\product\detail.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/detail', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(42): view('product/detail', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('penggaris')
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

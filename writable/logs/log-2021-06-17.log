@@ -1,0 +1,448 @@
+CRITICAL - 2021-06-17 08:34:05 --> Class 'App\Models\Product_model' not found
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Product->__construct()
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-17 08:41:27 --> Class 'Wildanfuady\WFcart\WFcart' not found
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Cart->__construct()
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-17 08:50:25 --> Undefined variable: comic
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:51:33 --> Undefined variable: title
+#0 C:\xampp\htdocs\Wilis\app\Views\layout\template.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-17 08:51:34 --> Undefined variable: title
+#0 C:\xampp\htdocs\Wilis\app\Views\layout\template.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-17 08:51:48 --> Undefined variable: title
+#0 C:\xampp\htdocs\Wilis\app\Views\layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-17 08:54:59 --> Undefined variable: produk
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:55:10 --> Undefined variable: product
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:55:34 --> Undefined variable: product
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:55:35 --> Undefined variable: product
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:57:59 --> Undefined index: file_gambar
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:58:08 --> Undefined index: file_gambar
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:58:09 --> Undefined index: file_gambar
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:58:10 --> Undefined index: file_gambar
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:58:42 --> Undefined variable: produk
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 08:59:01 --> Undefined index: file_gambar
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 09:00:44 --> Undefined index: slug
+#0 C:\xampp\htdocs\Wilis\app\Views\product\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(27): view('product/index', Array)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-17 10:02:55 --> Table 'ci4_cart.product' doesn't exist
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(25): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-17 10:02:59 --> Table 'ci4_cart.product' doesn't exist
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(25): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-17 10:03:00 --> Table 'ci4_cart.product' doesn't exist
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(25): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-17 10:03:13 --> Table 'ci4_cart.product' doesn't exist
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(25): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-17 10:05:26 --> Undefined property: App\Controllers\Product::$produkModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:05:58 --> Undefined property: App\Controllers\Product::$produkModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:05:59 --> Undefined property: App\Controllers\Product::$produkModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:06:00 --> Undefined property: App\Controllers\Product::$produkModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:06:09 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:06:10 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:06:15 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:52 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:53 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:54 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:54 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:55 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:56 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:56 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:07:58 --> Undefined property: App\Controllers\Product::$product_Model
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:13 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:14 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:43 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:44 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:45 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:45 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:08:45 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:09:44 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:09:45 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:09:49 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\Wilis\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-17 10:10:01 --> Call to a member function getProduct() on null
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-17 10:10:02 --> Call to a member function getProduct() on null
+#0 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->detail('product-1')
+#1 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Wilis\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Wilis\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
